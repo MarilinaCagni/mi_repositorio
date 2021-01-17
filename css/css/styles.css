@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#top{
+    font-family: 'Bebas Neue';
+    color: black;
+    font-size: 25px;
+    top: 10px;
+    background-color: #ffffff;
+}
+
+#logo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  @media (max-width:320px){
+      body{
+          background-color: burlywood;
+          font-size: 25px;
+      }
+  }  
+
+  @media (max-width:480px) { 
+      body{
+          font-size: 20px;
+      }
+
+  }
+
+@media (max-width: 600px) {
+    body {
+      background-color: beige;
+      grid-template-columns: 1fr 1fr minmax(160px, 1fr);
+    }
+  }
+
+#titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30 px;
+    font-weight: bold;
+    background-color: #fdbcc4;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    display: grid;
+}
+
+#subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'Roboto';
+    font-size: 14 px;
+    font-style: normal;
+    text-decoration: underline;
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#diaEspecial{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    
+  }
+
+  th {
+    background-color: #fdbcc4;
+    color:black;
+    text-align: center;
+  }
+
+th, td {
+    font-family:  'Roboto', sans-serif;
+    padding: 15px;
+    text-align: center;
+  }
+
+#fotosClientes{
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+     background-color: #fdbcc4;
+     color: black;
+     margin-left: 10px;
+}
+
+.imagenes {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    display: flex;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+    justify-content: space-evenly;
+
+ }
+    
+#img img {
+     width: 30%;}
+    
+#img img:hover { 
+    
+        transform: scale(1.1); 
+        transition-duration: 1s;} 
+
+#presu{
+    background-color: #fdbcc4;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#comentarios{
+    background-color: #fdbcc4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#quienesSomos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-color: #fdbcc4;
+    margin-left: 10px;
+}
+
+input[type=texto], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    margin-top: 8px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+
+  .btn-primary {
+    background-color: rosybrown;
+    font-family: 'Roboto', sans-serif;;
+    color: black;
+    font-style: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .btn-secondary {
+    background-color: brown;
+    font-style: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+
+
+  label{
+     font-family: 'Roboto', sans-serif;
+     
+  }
+
+  div{
+      font-family: 'Roboto', sans-serif;
+      
+  }
+  #enviar{
+      font-family: 'Roboto',sans-serif;
+  }
+
+  #enviar{ 
+    background-color: blueviolet;      
+    transition-duration: 3s; 
+} 
+
+  textarea{
+      font-family: 'Roboto', sans-serif;
+  }
+
+footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 0px;
+    padding-top: 0px;
+    overflow: visible;
+    font-style: normal;
+    color: black;
+    min-height: 150px;
+    flex: 0 0 auto;
+    background-color: black;
+    background: linear-gradient(violet, #fdbcc4);
+  } 
+  
