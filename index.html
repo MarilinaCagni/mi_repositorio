@@ -9,6 +9,19 @@
     <title>La Fiestiteria, pasteleria de Diseño.</title>
 
 </head>
+    <script>
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  </script>
 <body>
   <header>
     <section>
@@ -19,6 +32,21 @@
         <a href="comentarios.html" style="color: black";><b>COMENTARIOS</b></a>
         <a href="contacto.html" style="color: black";><b>CONTACTO</b></a>
       </nav>
+        <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">Mas+</button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="#">Recetas</a>
+          <a href="#">Solicita tu tarjeta</a>
+          <a href="#">Subi tu foto</a>
+        </div>
+        </div>
+        <div>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+      </div>
     </section>
       <div id="logo" class="container" style="max-width: fit-content";>
         <img src="img/fiestiteria-logo3.png" class="img-fluid" width="100%">
@@ -26,10 +54,7 @@
         </header>
           <h1 id="titulo" style="text-align: center;">
             ¡Disfruta de dulces momentos y celebra en familia!
-          </h1>
- 
-      <!--seccion 1-->
-    
+       </h1>
       <h2 id="subtitulo">
         Pasteleria de Diseño presente en tu dia especial.     
        </h2>
@@ -67,9 +92,7 @@
           </tr>
         </tbody>
         </table>
-      </div>
-    
-      <!--seccion 2 !-->
+        </div>
       
     <section class="recetas">
         <div class="recetas__titulo"><h3>Dulces Recetas</h3></div>
