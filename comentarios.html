@@ -5,43 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mira que dicen nuestros clientes sobre los productos que ofrecemos">
     <meta name="keywords" content="tortas, dulce, celebrar, familia, diseño, decoracion">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <title>La Fiestiteria. Comentarios</title>
+    <title>La Fiestiteria. Comentarios</title>   
 </head>
 <body>
-    <header>
-      <section>
-        <nav class="navbar navbar-light" id="top">
-          <a href="index.html" style="color: black";><b>INICIO</b></a>
-          <a href="quienessomos.html" style="color: black";><b>NOSOTROS</b></a>
-          <a href="fotos.html" style="color: black;"><b>FOTOS</b></a>
-          <a href="comentarios.html" style="color: black";><b>COMENTARIOS</b></a>
-          <a href="contacto.html" style="color: black";><b>CONTACTO</b></a>
-        </nav>
-      </section>
-        <div id="logo" class="container" style="max-width: fit-content";>
-            <img src="img/fiestiteria-logo3.png" class="img-fluid" width="100%">
-            </div>
-        </header>
-
-    <div class="comentarios">
-    <h1 id="comentarios">Comentarios de nuestros clientes</h1>
-    <h2 class="comentarios__maria">Maria Perez</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, possimus.</p>
-    <br>
-    <h2 class="comentarios__juana">Juana Lopez</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quia.</p>
-    <br>
-    <h2 class="comentarios__mario">Mario Juncos</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ratione.</p>
+  <header>
+<div class="pos-f-t" id="menuHamburguesa">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h5 class="text-white h4">MENU</h5>
+      <span class="text-muted">
+        <ul>
+        <li><a href="index.html" style="color: rosybrown";><b>INICIO</b></a></li>
+        <li><a href="quienessomos.html" style="color:rosybrown";><b>NOSOTROS</b></a></li>
+        <li><a href="fotos.html" style="color:rosybrown;"><b>FOTOS</b></a></li>
+        <li><a href="comentarios.html" style="color:rosybrown";><b>COMENTARIOS</b></a></li>
+        <li><a href="contacto.html" style="color:rosybrown";><b>CONTACTO</b></a></li>
+      </ul> 
+        </span>
+    </div>
   </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+    <div id="logo" class="container" style="max-width: fit-content";>
+        <img src="img/logo-banner.png" class="img-fluid" width="100%">
+        </div>
 
-    <footer class="footer">
-      <p class="footer__parrafo">Seguinos en nuestras REDES SOCIALES: </p>
-        <div class="redes__facebook"><br><a href="https://www.facebook.com/La-Fiestiter%C3%ADa-2138099029842922" style="color:white;"><i class="fa fa-facebook-official" aria-hidden="true"></i>La Fiestiteria</a></li></div>
-         <div class="redes__instagram"><br><a href="https://www.instagram.com/la_fiestiteria/?hl=es-la" style="color:white;"><i class="fa fa-instagram" aria-hidden="true"></i>La_Fiestiteria</a></div>
-      </div>  
-      </footer>  
+        </header>
+    <h1 id="comentarios">Clientes felices</h1>
+    <p class="clientesFelices">Conoce que dicen nuestros clientes acerca de nuestro productos. Cada experiencia vivida, es unica e inugualable. Acontecimientos especiales merecen ser celebrados con la mejor mesa dulce. <br> Vos podes ser parte del mundo de La Fiestiteria. ¡Conocenos! </p>
+    <div class="comentario">
+      <img class="imgcomentario" src="img/comentario1.jpg">
+      <h2>Pamela Torres</h2>
+      <aside class="coment">Cada trabajo es una realidad exigida por cada cliente. Sabe cumplir con las fantasías y realidades. Excelente diseños y sobre todo calidad humana. ¡Súper recomendable!</aside>
+      <div class="reset"></div>
+    </div>
+<br>
+    <div class="comentario">
+      <img class="imgcomentario" src="img/comentario2.jpg">
+      <aside>Lo que queremos hacer es colocar este texto al lado derecho de la imagen, algo así como se observa en periódicos o revistas.</aside>
+      <div class="reset"></div>
+    </div>
+<br>
+    <div class="comentario">
+      <img class="imgcomentario" src="img/comentario3.jpg">
+      <aside>Lo que queremos hacer es colocar este texto al lado derecho de la imagen, algo así como se observa en periódicos o revistas.</aside>
+      <div class="reset"></div>
+    </div>
+    <!--<div class="card" id="comentario" style="width: 18rem;">
+      <div class="card-body">
+        <img class="imagenComentario" src="img/comentario2.jpg">
+        <h5 class="card-title">Pamela Torres</h5>
+        <p class="card-text">Cada trabajo es una realidad exigida por cada cliente. Sabe cumplir con las fantasías y realidades. Excelente diseños y sobre todo calidad humana. Súper recomendable.</p>
+      </div>
+    </div>
+    <br>
+    <div class="card" id="comentario" style="width: 18rem;">
+      <div class="card-body">
+        <img class="imagenComentario" src="img/comentario1.jpg">
+        <h5 class="card-title">Vanesa Torres</h5>
+        <p class="card-text">Gracias por tu dedicacion y el gusto que le pones a cada trabajo. Es super recomendable, una genia con todas las letras.</p>
+      </div>
+    </div>
+    <br>
+    <div class="card" id="comentario" style="width: 18rem;">
+      <div class="card-body">
+        <img class="imagenComentario" src="img/comentario3.jpg">
+        <h5 class="card-title">Gisela Lagos</h5>
+        <p class="card-text">Recomiendo la calidad, el sabor, la dedicacion y el amor en cada trabajo. Diseño unico en todo sentido. ¡Muchas gracias por todo!</p>
+      </div>
+    </div>!-->
+    <br><br>
+
+    <footer id="miFooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p id="textoFooter">La Fiestitería &copy; Pastelería de Diseño.</p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://www.facebook.com/La-Fiestiter%C3%ADa-2138099029842922"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="instagram" href="https://www.instagram.com/la_fiestiteria/?hl=es-la"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer> 
+
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
